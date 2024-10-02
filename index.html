@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta nomes="Gabriel Rocha Aboboreira Tia: 10420207; Ana Julia Blande Silva Tia: 10438692; Naomi Suguimoto Arakaki Tia: 10438010">
+    <title>Guia Flexbox</title>
+    <link rel="stylesheet" href="style.css">
+    <a href="index2.html">Flex-item</a>
+</head>
+<body>
+    <header>
+    </header> 
+    <article>
+        <h3>Flex container</h3>
+        <h2 id="categoria2">Display</h2>
+        <h1 id="categoria">Display block</h1>
+        <div class="display">
+            <h1>1</h1>
+            <h1>2</h1>
+            <h1>3</h1>
+            <h1>4</h1>
+        </div>
+        <h1 id="categoria">Display: flex</h1>
+        <div class="display flex">
+            <h1>1</h1>
+            <h1>2</h1>
+            <h1>3</h1>
+            <h1>4</h1>
+        </div>
+        <h1 id="categoria">Display: flex</h1>
+        <div class="display flex">
+            <h1>Opção 1</h1>
+            <h1>Opção 2</h1>
+            <h1>Opção 3</h1>
+            <h1>Opção 4</h1>
+            <h1>Opção 5</h1>
+            <h1>Opção 6</h1>
+        </div>
+        <h1 id="categoria">Display: flex-warp</h1>
+        <div class="display flex fex-warp">
+            <h1>Opção 1</h1>
+            <h1>Opção 2</h1>
+            <h1>Opção 3</h1>
+            <h1>Opção 4</h1>
+            <h1>Opção 5</h1>
+            <h1>Opção 6</h1>
+            <h1>Opção 7</h1>
+            <h1>Opção 8</h1>
+            <h1>Opção 9</h1>
+        </div>
+        <h1 id="categoria">Display: flex  // flex-item</h1>
+        <div class="display flex">
+            <h1 class="flex-item-1">Opção 1</h1>
+            <h1 class="flex-item-1">Opção 2</h1>
+            <h1 class="flex-item-1">Opção 3</h1>
+            
+        </div>
+        <h2 id="categoria2">flex-wrap</h2>
+        <h1 id="categoria">flex-wrap: nowrap</h1>
+        <div class="flex nowrap">
+            <h1 class="flex-item-1">OpçãoDoItem1</h1>
+            <h1 class="flex-item-1">OpçãoDoItem2</h1>
+            <h1 class="flex-item-1">OpçãoDoItem3</h1>
+        </div>
+        <h1 id="categoria">flex-wrap: wrap</h1>
+        <div class="flex wrap">
+            <h1 class="flex-item-1">OpçãoDoItem1</h1>
+            <h1 class="flex-item-1">OpçãoDoItem2</h1>
+            <h1 class="flex-item-1">OpçãoDoItem3</h1>
+        </div>
+        <h1 id="categoria">flex-wrap: wrap</h1>
+        <div class="flex wrap-reverse">
+            <h1 class="flex-item-1">OpçãoDoItem1</h1>
+            <h1 class="flex-item-1">OpçãoDoItem2</h1>
+            <h1 class="flex-item-1">OpçãoDoItem3</h1>
+        </div>
+        <h2 id="categoria2">Flex-flow</h2>
+        <h1 id="categoria">flex-flow: row nowrap</h1>
+        <div class="flex row-nowrap">
+            <h1 class="flex-item-1">OpçãoDoItem1</h1>
+            <h1 class="flex-item-1">OpçãoDoItem2</h1>
+            <h1 class="flex-item-1">OpçãoDoItem3</h1>
+        </div>
+        <h1 id="categoria">flex-flow: row wrap</h1>
+        <div class="flex row-wrap">
+            <h1 class="flex-item-1">OpçãoDoItem1</h1>
+            <h1 class="flex-item-1">OpçãoDoItem2</h1>
+            <h1 class="flex-item-1">OpçãoDoItem3</h1>
+        </div>
+        <h1 id="categoria">flex-flow: row wrap</h1>
+        <div class="flex column-nowrap">
+            <h1 class="flex-item-1">OpçãoDoItem1</h1>
+            <h1 class="flex-item-1">OpçãoDoItem2</h1>
+            <h1 class="flex-item-1">OpçãoDoItem3</h1>
+        </div>
+        <h2 id="categoria2">Justify-content</h2>
+        <h1 id="categoria">justify-content: flex-start</h1>
+        <div class="flex flex-start">
+            <h1>1</h1>
+            <h1>Opção2</h1>
+            <h1>3</h1>
+            <h1>4</h1>
+        </div>
+        <h1 id="categoria">justify-content: flex-end</h1>
+        <div class="flex flex-end">
+            <h1>1</h1>
+            <h1>Opção2</h1>
+            <h1>3</h1>
+            <h1>4</h1>
+        </div>
+        <h1 id="categoria">justify-content: flex-center</h1>
+        <div class="flex flex-center">
+            <h1>1</h1>
+            <h1>Opção2</h1>
+            <h1>3</h1>
+            <h1>4</h1>
+        </div>
+        <h1 id="categoria">justify-content: space-between</h1>
+        <div class="flex space-between">
+            <h1>1</h1>
+            <h1>Opção2</h1>
+            <h1>3</h1>
+            <h1>4</h1>
+        </div>
+        <h1 id="categoria">justify-content: space-around</h1>
+        <div class="flex space-around">
+            <h1>1</h1>
+            <h1>Opção2</h1>
+            <h1>3</h1>
+            <h1>4</h1>
+        </div>
+        <h1 id="categoria">justify-content: space-around // itens com flex: 1</h1>
+        <div class="flex space-around">
+            <h1 class="flex-item-1">1</h1>
+            <h1 class="flex-item-1">Opção2</h1>
+            <h1 class="flex-item-1">3</h1>
+            <h1 class="flex-item-1">4</h1>
+        </div>
+        <h1 id="categoria">justify-content: flex-start // column</h1>
+        <div class="flex flex-start column">
+            <h1>1</h1>
+            <h1>Opção2</h1>
+            <h1>3</h1>
+            <h1>4</h1>
+        </div>
+        <h1 id="categoria">justify-content: flex-end // column</h1>
+        <div class="flex flex-end column">
+            <h1>1</h1>
+            <h1>Opção2</h1>
+            <h1>3</h1>
+            <h1>4</h1>
+        </div>
+        <h1 id="categoria">justify-content: flex-center // column</h1>
+        <div class="flex flex-center column">
+            <h1>1</h1>
+            <h1>Opção2</h1>
+            <h1>3</h1>
+            <h1>4</h1>
+        </div>
+        <h1 id="categoria">justify-content: space-between // column</h1>
+        <div class="flex space-between column">
+            <h1>1</h1>
+            <h1>Opção2</h1>
+            <h1>3</h1>
+            <h1>4</h1>
+        </div>
+        <h1 id="categoria">justify-content: space-sround // column</h1>
+        <div class="flex space-around column">
+            <h1>1</h1>
+            <h1>Opção2</h1>
+            <h1>3</h1>
+            <h1>4</h1>
+        </div>
+        <h1 id="categoria">justify-content: space-sround // column // opção com flex 1</h1>
+        <div class="flex space-around column">
+            <h1 class="flex-item-1">1</h1>
+            <h1 class="flex-item-1">Opção2</h1>
+            <h1 class="flex-item-1">3</h1>
+            <h1 class="flex-item-1">4</h1>
+        </div>
+        <h2 id="categoria2">Align-items</h2>
+        <h1 id="categoria">align-items: stretch</h1>
+        <div class="flex stretch">
+            <h1 class="flex-item-1">1</h1>
+            <h1 class="flex-item-1">Opção 2 do item</h1>
+            <h1 class="flex-item-1">Opção 3 do item agora mesmo</h1>
+            <h1 class="flex-item-1">Opção 4</h1>
+        </div>
+        <h1 id="categoria">align-items: flex-start</h1>
+        <div class="flex align-flex-start">
+            <h1 class="flex-item-1">1</h1>
+            <h1 class="flex-item-1">Opção 2 do item</h1>
+            <h1 class="flex-item-1">Opção 3 do item agora mesmo</h1>
+            <h1 class="flex-item-1">Opção 4</h1>
+        </div>
+        <h1 id="categoria">align-items: flex-end</h1>
+        <div class="flex align-flex-end">
+            <h1 class="flex-item-1">1</h1>
+            <h1 class="flex-item-1">Opção 2 do item</h1>
+            <h1 class="flex-item-1">Opção 3 do item agora mesmo</h1>
+            <h1 class="flex-item-1">Opção 4</h1>
+        </div>
+        <h1 id="categoria">align-items: flex-center</h1>
+        <div class="flex align-center">
+            <h1 class="flex-item-1">1</h1>
+            <h1 class="flex-item-1">Opção 2 do item</h1>
+            <h1 class="flex-item-1">Opção 3 do item agora mesmo</h1>
+            <h1 class="flex-item-1">Opção 4</h1>
+        </div>
+        <h1 id="categoria">align-items: baseline</h1>
+        <div class="flex align-baseline">
+            <h1 class="flex-item-1">1</h1>
+            <h1 class="flex-item-1">Opção 2 do item</h1>
+            <h1 class="flex-item-1">Opção 3 do item agora mesmo</h1>
+            <h1 class="flex-item-1"> Opção 4</h1>
+        </div>
+        <h1 id="categoria">align-items: flex-stretch; // column</h1>
+        <div class="flex stretch column">
+            <h1 class="flex-item-1">1</h1>
+            <h1 class="flex-item-1">Opção 2 do item</h1>
+            <h1 class="flex-item-1">Opção 3 do item agora mesmo</h1>
+            <h1 class="flex-item-1">Opção 4</h1>
+        </div>
+        <h1 id="categoria">align-items: flex-start; // column</h1>
+        <div class="flex align-flex-start column">
+            <h1 class="flex-item-1">1</h1>
+            <h1 class="flex-item-1">Opção 2 do item</h1>
+            <h1 class="flex-item-1">Opção 3 do item agora mesmo</h1>
+            <h1 class="flex-item-1">Opção 4</h1>
+        </div>
+        <h1 id="categoria">align-items: flex-end; // column</h1>
+        <div class="flex align-flex-end column">
+            <h1 class="flex-item-1">1</h1>
+            <h1 class="flex-item-1">Opção 2 do item</h1>
+            <h1 class="flex-item-1">Opção 3 do item agora mesmo</h1>
+            <h1 class="flex-item-1">Opção 4</h1>
+        </div>
+        <h1 id="categoria">align-items: center; // column</h1>
+        <div class="flex align-center column">
+            <h1 class="flex-item-1">1</h1>
+            <h1 class="flex-item-1">Opção 2 do item</h1>
+            <h1 class="flex-item-1">Opção 3 do item agora mesmo</h1>
+            <h1 class="flex-item-1">Opção 4</h1>
+        </div>
+        <h1 id="categoria">align-items: baseline; // column</h1>
+        <div class="flex align-baseline column">
+            <h1 class="flex-item-1">1</h1>
+            <h1 class="flex-item-1">Opção 2 do item</h1>
+            <h1 class="flex-item-1">Opção 3 do item agora mesmo</h1>
+            <h1 class="flex-item-1">Opção 4</h1>
+        </div>
+        <h1 id="categoria">align-items: center; e justfy-content: center</h1>
+        <div class="flex alinhamento-central">
+            <h1 class="item">Essa opção está verticalmente alinhado ao centro.</h1>
+        </div>
+        <h2 id="categoria2">Align-content</h2>
+        <h1 id="categoria">align-content: stretch</h1>
+        <div class="container stretch">
+            <h1 class="flex-item-1">TestandoPalavra1</h1>
+            <h1 class="flex-item-1">Teste 2 do Item</h1>
+            <h1 class="flex-item-1">Teste 3 do Item Agora Mesmo</h1>
+            <h1 class="flex-item-1">Teste 4</h1>
+            <h1 class="flex-item-1">Teste 5</h1>
+            <h1 class="flex-item-1">Teste 6</h1>
+            <h1 class="flex-item-1">Teste 7</h1>
+            <h1 class="flex-item-1">Teste 8</h1>
+        </div>
+        <h1 id="categoria">align-content: flex-start</h1>
+        <div class="container align-flex-start">
+            <h1 class="flex-item-1">TestandoPalavra1</h1>
+            <h1 class="flex-item-1">Teste 2 do Item</h1>
+            <h1 class="flex-item-1">Teste 3 do Item Agora Mesmo</h1>
+            <h1 class="flex-item-1">Teste 4</h1>
+            <h1 class="flex-item-1">Teste 5</h1>
+            <h1 class="flex-item-1">Teste 6</h1>
+            <h1 class="flex-item-1">Teste 7</h1>
+            <h1 class="flex-item-1">Teste 8</h1>
+        </div>
+        <h1 id="categoria">align-content: flex-end</h1>
+        <div class="container align-flex-end">
+            <h1 class="flex-item-1">TestandoPalavra1</h1>
+            <h1 class="flex-item-1">Teste 2 do Item</h1>
+            <h1 class="flex-item-1">Teste 3 do Item Agora Mesmo</h1>
+            <h1 class="flex-item-1">Teste 4</h1>
+            <h1 class="flex-item-1">Teste 5</h1>
+            <h1 class="flex-item-1">Teste 6</h1>
+            <h1 class="flex-item-1">Teste 7</h1>
+            <h1 class="flex-item-1">Teste 8</h1>
+        </div>
+        <h1 id="categoria">align-content: flex-center</h1>
+        <div class="container align-center">
+            <h1 class="flex-item-1">TestandoPalavra1</h1>
+            <h1 class="flex-item-1">Teste 2 do Item</h1>
+            <h1 class="flex-item-1">Teste 3 do Item Agora Mesmo</h1>
+            <h1 class="flex-item-1">Teste 4</h1>
+            <h1 class="flex-item-1">Teste 5</h1>
+            <h1 class="flex-item-1">Teste 6</h1>
+            <h1 class="flex-item-1">Teste 7</h1>
+            <h1 class="flex-item-1">Teste 8</h1>
+        </div>
+        <h1 id="categoria">align-content: space-between</h1>
+        <div class="container align-space-between">
+            <h1 class="flex-item-1">TestandoPalavra1</h1>
+            <h1 class="flex-item-1">Teste 2 do Item</h1>
+            <h1 class="flex-item-1">Teste 3 do Item Agora Mesmo</h1>
+            <h1 class="flex-item-1">Teste 4</h1>
+            <h1 class="flex-item-1">Teste 5</h1>
+            <h1 class="flex-item-1">Teste 6</h1>
+            <h1 class="flex-item-1">Teste 7</h1>
+            <h1 class="flex-item-1">Teste 8</h1>
+        </div>
+        <h1 id="categoria">align-content: center</h1>
+        <div class="container align-space-around">
+            <h1 class="flex-item-1">TestandoPalavra1</h1>
+            <h1 class="flex-item-1">Teste 2 do Item</h1>
+            <h1 class="flex-item-1">Teste 3 do Item Agora Mesmo</h1>
+            <h1 class="flex-item-1">Teste 4</h1>
+            <h1 class="flex-item-1">Teste 5</h1>
+            <h1 class="flex-item-1">Teste 6</h1>
+            <h1 class="flex-item-1">Teste 7</h1>
+            <h1 class="flex-item-1">Teste 8</h1>
+        </div>
+    </article>
+</body>
+</html>
