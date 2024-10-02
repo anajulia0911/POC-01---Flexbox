@@ -1,0 +1,146 @@
+h1 {
+	text-align: center;
+    margin: 8px;
+    background-color: brown;
+}
+h2{
+    text-align: center;
+}
+h3{
+    color: white;
+    font-size: 200%;
+    text-align: center;
+    border: 1px solid brown;
+    max-width: 400px;
+	margin: 0 auto;
+    background-color: brown;    
+}
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 100%;
+	padding: 10px 15px;
+	border-radius: 5px;
+	background-color: brown;
+	transition: background-color 0.3s ease;
+
+}
+#categoria{
+    color: black;
+    background-color: white ;
+}
+#categoria2{
+    text-align: center;
+    max-width: 400px;
+    margin: 10px auto;
+    border: 1px solid;
+    border-color: brown;
+    display:flex;
+    justify-content: center;
+    background-color: white;
+    color: brown;
+}
+.display{
+    max-width: 400px;
+	margin: 0 auto;
+	border: 1px solid;
+    border-color: black;
+}
+.flex{
+    max-width: 400px;
+	margin: 0 auto;
+	border: 1px solid;
+    border-color: black;
+    display: flex;
+}
+.fex-warp{
+    flex-wrap: wrap;
+}
+.flex-item-1{
+    flex: 1;
+	margin: 10px;
+	text-align: center;
+}
+.nowrap {
+	flex-wrap: nowrap;
+}
+.wrap {
+	flex-wrap: wrap;
+}
+.wrap-reverse {
+	flex-wrap: wrap-reverse;
+}
+.row-nowrap {
+	flex-flow: row nowrap;
+}
+.row-wrap {
+	flex-flow: row wrap;
+}
+.column-nowrap {
+	flex-flow: column nowrap;
+}
+.flex-start{
+    justify-content: flex-start;
+}
+.flex-end {
+	justify-content: flex-end;
+}
+.flex-center {
+	justify-content: center;
+}
+.space-between {
+	justify-content: space-between;
+}
+.space-around {
+	justify-content: space-around;
+}
+.column {
+	min-height: 200px;
+	flex-direction: column;
+}
+.stretch {
+	align-items: stretch;
+}
+.align-flex-start {
+	align-items: flex-start;
+}
+.align-flex-end {
+	align-items: flex-end;
+}
+.align-center {
+	align-items: center;
+}
+.align-baseline {
+	align-items: baseline;
+}
+.align-flex-end {
+	align-items: flex-end;
+}
+.align-center {
+	align-items: center;
+}
+.alinhamento-central {
+	justify-content: center;
+	align-items: center;
+}
+.alinhamento-central .item {
+	flex: 0;
+	padding: 10px;
+}
+.container {
+	max-width: 420px;
+	height: 300px;
+	margin: 0 auto;
+	display: flex;
+	border: 1px solid black;
+	flex-wrap: wrap;
+}
+.stretch {
+	align-content: stretch;
+}
+.align-space-between {
+	align-content: space-between;
+}
+.align-space-around {
+	align-content: space-around;
+}
